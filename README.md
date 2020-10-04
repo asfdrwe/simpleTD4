@@ -1,6 +1,6 @@
 # simpleTD4 
 simpleTD4 is an implementation of 4bit CPU TD4 written with verilog.
-simpleTD4 runs on iverlog or [Sipeed Tang Nano] (https://tangnano.sipeed.com/en/) .
+simpleTD4 runs on iverlog or [Sipeed Tang Nano](https://tangnano.sipeed.com/en/) .
 
 ## license
   ```
@@ -30,7 +30,7 @@ IN THE SOFTWARE.
 	- [Windows Version](http://bleyer.org/icarus/)
 - [gtkwave](http://gtkwave.sourceforge.net/) (optional)
 
-- [Sipeed Tang Nano] (https://tangnano.sipeed.com/en/) (optional)  
+- [Sipeed Tang Nano](https://tangnano.sipeed.com/en/) (optional)  
 low price FPGA board
 
 
