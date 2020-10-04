@@ -58,7 +58,7 @@ run gw_ide and open nano\_simple/TD4\_nano1.gprj or nano\_breadboard/TD4\_nano1.
 ## TD4 details
 TD4 is 4bit CPU designed in ["CPU no tsukurikata (How to create CPU)" by Watanabe, Kaoru](https://www.amazon.co.jp/dp/4839909865/) (written in Japanese).
 
-The unofficial details of TD4 on web is [CPU no tsukurikata TD4 by Yamamoto, Minoru](http://xyama.sakura.ne.jp/hp/4bitCPU_TD4.html) (written in Japanese). The example circuite design is [by Yamamoto, Minoru](http://xyama.sakura.ne.jp/4bitCPU_TD4/4bitCPU_TD4x.gif).
+The unofficial details of TD4 on web is [CPU no tsukurikata TD4 by Yamamoto, Minoru](http://xyama.sakura.ne.jp/hp/4bitCPU_TD4.html) (written in Japanese). The example circuite design is [HERE](http://xyama.sakura.ne.jp/4bitCPU_TD4/4bitCPU_TD4x.gif).
 
 simpleTD4's diagram:  
 ![the block diagram for simpleTD4](images/TD4_block_diagram.png)
@@ -124,7 +124,7 @@ this document
 - TD4withComment.v  
 the commented simpleTD4 implementation
 
-- *\_jp.md
+- *\_jp.md  
 the Japanse version document and the details of simpleTD4 implemetation written in Japanese
 
 - nano\_simple  
@@ -132,7 +132,7 @@ run on Tang Nano simply
 
 - nano\_breadboard  
 run with breadboard   
-![circuit example] (images/tangnano.png)
+![circuit example](images/tangnano.png)
 
 - nano\_uart  
 output TD4 log to PC   
