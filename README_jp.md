@@ -128,9 +128,7 @@ TD4の出力ポートが上位から38番39番40番41番(左下1番目から4番
 PCにUSB UART経由でTD4の内部状態を出力しながら動作します。
 ピンアサインはnano\_simpleと同じです。
 出力形式は  
-    ```
 pc opcode reg_a,reg_b,reg_out,reg_in cflag|load_a,load_b,load_out,load_pc|nextcflag|alu_out  
-    ```
 
 	Tang NanoはUARTの信号線と書き込み用の信号線が重複しています。  
 	Linuxではftdi\_sioが動いていると書き込みができず、ftdi\_sioが動いていないと

@@ -123,12 +123,12 @@ opcodeに出力します。
 JNCやJMPのときは2'b11でそうでないときはopcode[5:4]、出力レジスタを選択する
 load\_selがopcode[7:6]、JMP命令かどうかを示すjmpがopcode[4]です。
 
- Executeは25~34行目で、25~29行目でalu\_selに基づきreg\_a(2'b00)かreg\_b
+ Executeは25\~34行目で、25\~29行目でalu\_selに基づきreg\_a(2'b00)かreg\_b
 (2'b01)かin\_port(2'b10)か0入力(2'b11)を決定し、33行目でalu\_selの
 選択した値とimを加算し、alu\_outとnextcflagに出力します。
 
- Write Backは36~39行目でload\_selからデータバスの出力先を決定します。
-53~56行目でクロックごとにreg\_a、reg\_b、reg\_out、cflagを設定しています。
+ Write Backは36\~39行目でload\_selからデータバスの出力先を決定します。
+53\~56行目でクロックごとにreg\_a、reg\_b、reg\_out、cflagを設定しています。
 
  Next PCは40~43行目でload\_selからジャンプ命令であるか調べ、無条件
 ジャンプまたはキャリーフラグが立っていない(負論理)なら次のpcを選択する
