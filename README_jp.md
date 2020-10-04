@@ -130,14 +130,13 @@ PCにUSB UART経由でTD4の内部状態を出力しながら動作します。
 出力形式は  
 pc opcode reg_a,reg_b,reg_out,reg_in cflag|load_a,load_b,load_out,load_pc|nextcflag|alu_out  
 
-	Tang NanoはUARTの信号線と書き込み用の信号線が重複しています。  
-	Linuxではftdi\_sioが動いていると書き込みができず、ftdi\_sioが動いていないとUARTでの通信ができないので、rmmodとmodprobeをうまく使ってください。cuコマンドを使う場合/dev/ttyUSB0としてTang Nanoが認識されているなら
-  ```
+Tang NanoはUARTの信号線と書き込み用の信号線が重複しています。  
+Linuxではftdi\_sioが動いていると書き込みができず、ftdi\_sioが動いていないとUARTでの通信ができないので、rmmodとmodprobeをうまく使ってください。cuコマンドを使う場合/dev/ttyUSB0としてTang Nanoが認識されているなら
+
+```
 cu -l /dev/ttyUSB0 -s 57600
-  ```
+```
 
 Windowsの場合は
 [Tang NanoでuartのIPコアを動かした件](https://qiita.com/yoshiki9636/items/cabcd0c62ea97472b51c)
 が参考になると思います。なおこのページのコードをnano_uartの実装の参考にしています。
-
-
