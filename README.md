@@ -31,7 +31,7 @@ IN THE SOFTWARE.
 - [gtkwave](http://gtkwave.sourceforge.net/) (optional)
 
 - [Sipeed Tang Nano](https://tangnano.sipeed.com/en/) (optional)  
-low price FPGA board
+a low price FPGA board
 
 
 ## for iverilog
@@ -140,6 +140,6 @@ log format:
 pc opcode reg\_a,reg\_b,reg\_out,reg\_in cflag|load\_a,load\_b,load\_out,load\_pc|nextcflag|alu\_out
 
 ## How to write ROM.bin
-write 8bits in 1 line  
+write one opcode (8bits) in 1 line  
 ignore \_ , // as comment for iverilog   
 see ROMLED.bin ROMRAMEM.bin ROMINOUT.bin  
