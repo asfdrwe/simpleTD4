@@ -1,0 +1,18 @@
+//Copyright (C)2014-2019 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.2.01Beta
+//Part Number: GW1N-LV1QN48C6/I5
+//Created Time: Wed 09 30 13:36:18 2020
+
+IO_LOC "clock" 35;
+IO_LOC "reset_n" 15;
+IO_LOC "in1[0]" 24;
+IO_LOC "in1[1]" 22;
+IO_LOC "in1[2]" 21;
+IO_LOC "in1[3]" 20;
+IO_LOC "out[0]" 41;
+IO_LOC "out[1]" 40;
+IO_LOC "out[2]" 39;
+IO_LOC "out[3]" 38;
+IO_LOC "buzz" 23;

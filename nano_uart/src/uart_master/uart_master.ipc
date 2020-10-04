@@ -1,0 +1,13 @@
+[General]
+ipc_version=4
+file=uart_master
+module=UART_MASTER_Top
+target_device=gw1n1-004
+type=uart_master
+version=1.0
+
+[Config]
+DISABLE_IO_INSERTION=true
+LANG=0
+UART_BAUD_RATE=57600
+UART_MASTER_SYSCLK=50
