@@ -33,6 +33,10 @@ IN THE SOFTWARE.
 - [Sipeed Tang Nano](https://tangnano.sipeed.com/en/) (optional)  
 a low price FPGA board
 
+## getting started
+```
+git clone https://github.com/asfdrwe/simpleTD4.git
+```
 
 ## for iverilog
 simpleTD4 is tested only on linux.

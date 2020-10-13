@@ -26,6 +26,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
   ```
 
+## ファイル取得
+```
+git clone https://github.com/asfdrwe/simpleTD4.git
+```
+
 ## 必要なもの
 ### PCでシミュレーションする場合
 - [iverlog](http://iverilog.icarus.com/)
@@ -33,6 +38,7 @@ IN THE SOFTWARE.
 - [gtkwave](http://gtkwave.sourceforge.net/) (なくてもいい)  
 
 Linuxで動作確認しています。iverlogもgtkwaveもLinuxなら大抵のディストリビューションでバイナリが用意されていると思います。
+
 
 ### FPGAを使う場合
 - [Sipeed Tang Nano] (https://tangnano.sipeed.com/en/)  
